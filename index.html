@@ -1,43 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio experience</title>
+    <title>Portfolio experience</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>Meu Portifólio</h1></header>
-<menu> 
-            <section id="sobre-mim">
+    <header class="cabeçario">
+       
+        <p> Maicon B. Oliveira </p>
+            <ul class="menu-lista">
+                <li><a href="">Sobre mim</a ></li>
+                <li><a href="">Skills</a ></li>
+                <li><a href="">Hobbies</a></li>
+                <li><a href="">Formação</a ></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Contato</a ></li>
+            </ul>
+    </header>
+<section class="apresentaçao">
+    <h2>Ola, sou Maicon de Brito Oliveira eu desenvolvo páginas da web </h2>
+    <p> Sou estudante, e estou estudando Html, Css, e Javascript atualmente estou participando - <br> no projeto Oracle ONE na plataforma da Alura.</p>
+    <ul>
+        <li><a href=""> <img src="./imagens/github.png" alt=""> Github</a></li>
+        <li><a href=""> <img src="./imagens/linkedin.png" alt=""> linkedin</a></li>
+        <li><a href=""> <img src="./imagens/instragram.png" alt=""> Instragram</a></li>
+        <li><a href=""> <img src="./imagens/facebook.png" alt=""> Facebook</a></li>
+        <li><a href=""> <img src="./imagens/Twitter.png" alt=""> Twitter</a> </li>
+    </ul>
+    <a href=""><img class="main-pictures" src="./imagens/perfil.png.jpg" alt="perfil.png"></a>
+    
+</section>
+
+
+            <section class="sobremim">
+
                 <h2> Sobre mim</h2>
-                <p>Eu sou isso sou aquilo blablabla</p>
+                <p>Olá eu me chamo maicon de Brito Oliveira essa seção e dada para eu falar sobre mim <br>
+                    mas eu não tenho muita coisa a dizer tudo posso falar sobre minha vida em unha linha <br>
+                    embarasosa que com as modação certa venha a desenhar a pessoa que sou hoje.</p>
+                 <p>Sou estudante curioso que ama aprender novas coisas  e na área de desevolvedor fez ter <br>
+                    infinitas possibilidas de apredizagem onde a criatividade não tem limetes que unica frotei- <br>
+                    ra é sua energia e sua dezejo de aprender.</p>
             </section>
-            <section id="habilidades">
+            <section class="skills">
             <div>
-               <h2>Minhas Habilidases</h2>
-                <ul>
-                    <li> item 1</li>
-                    <li>item 2</li>
-                     <li>item 3</li>
+               <h2>Skills</h2>
+                <ul class="listas">
+                    <li> 
+                      <img src="./imagens/js.png" class="skills-hobbies-imagens">
+                        <p> Javascript</p>
+                    </li>
+
+                    <li>
+                        <img src="./imagens/css-3.png" alt="" class="skills-hobbies-imagens">
+                        <p>Css</p>
+                    </li>
+
+                     <li>
+                        <img src="./imagens/html-5.png" alt=""  class="skills-hobbies-imagens" >
+                         
+                           <p>Html</p>  
+                        
+                     </li>
+                     <li>
+                         <img src="./imagens/java.png" alt="" class="skills-hobbies-imagens">
+                         <p>Java</p>
+                     </li>
                 </ul>
             </div>
             </section>
+                   <section >
+                      <h2>Hobbies</h2>
+                     <ul class="listas">
+                        <li>
+                             <img src="./imagens/bola-de-futebol.png" alt="" class="skills-hobbies-imagens">
+                             <p>Futebol</p>
+                            </li>
+                        <li> <img src="./imagens/violao-classico.png" alt="" class="skills-hobbies-imagens">
+                            <p>Tocar</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/codificacao.png" alt="" class="skills-hobbies-imagens">
+                            <p>Programar</p>
+                        </li>
+                        <li>
+                            <img src="./imagens/ler.png" alt="" class="skills-hobbies-imagens">
+                        </li>
+                     </ul>
+                    </section>
+        </section>
             <section id="formação">
-                <div>
+             
                     <h2>Curso e formação </h2>
-                    <ul>
+                    <ul class="listas">
                         <li> item 1</li>
                         <li>item 2</li>
                         <li>item 3</li>
                     </ul>
-                </div>
                 </section>
-            <section id="meu_projetos"></section>
-</menu>
+            <section id="meu_projetos">
+                <h2>Projetos</h2>
+            </section>
+
 <section>
 <form action="">
-    <label for="">Mensagem</label>
+
+     <label for="text">Nome</label>
+     <input type="text" placeholder="Digite seu nome">
+     <label for="E-mail">E-mail</label>
+     <input type="email" placeholder="Digite seu email">
+    <label for="Mensagem">Mensagem</label>
     <input type="text" placeholder="Digite sua mensagem">
     <input type="button" value="enviar">
     

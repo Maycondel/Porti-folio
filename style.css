@@ -1,0 +1,106 @@
+
+/* Estilo do cabeçario */
+body{
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+
+}
+.cabeçario{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: red;
+    
+}
+.cabeçario p:before{
+    content: "✰";
+
+}
+.cabeçario p {
+    font-weight: bolder;
+    margin-left: 80px;
+}
+.menu-lista{
+    position: absolute; 
+    margin: -33px 0 0 550px;
+    
+}
+.menu-lista li{
+    display: inline-block;
+
+} 
+section{
+    margin-top: 40px;
+
+
+}
+section h2{
+text-align: center;
+}
+/* Seção de apresentação */
+.apresentaçao{
+
+    margin-top:100px;
+    height: 400px;
+}
+.apresentaçao h2{
+    margin-top: 2em;
+    text-align: center;
+}
+.apresentaçao p{
+    margin-left: 300px;
+}
+.apresentaçao ul{
+   width: 40%;
+   display: inline-block;
+   vertical-align: bottom ;
+   margin-left: 200px;
+}
+.apresentaçao li{
+    display: inline-block;
+}
+.main-pictures{
+    width: 20%;
+    border-radius: 80%;
+    margin-right: 100px;
+ 
+}
+.sobremim{
+    text-align: center;
+
+}
+.sobremim p{
+    font-size: 24px;
+    
+    color:blue ;
+}
+/*****************************/
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.listas li{
+display: inline-block;
+margin-left: 25px;
+padding: 5px;
+}
+/*  seção de skills */
+.skills-hobbies-imagens{
+    width: 100px;
+}
+.skills ul{
+text-align: center;
+
+
+}
+.skills li{
+    margin-left: 70px;
+    padding: 40px;
+    border: 2px solid green;
+    width: 110px;
+}
